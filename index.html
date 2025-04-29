@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Homepage</title>
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Wojciech Szumny</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="project1.jpg" alt="Project 1">
+            <div class="caption">Project 1 Description</div>
+        </div>
+        <div class="slide fade">
+            <img src="project2.jpg" alt="Project 2">
+            <div class="caption">Project 2 Description</div>
+        </div>
+        <div class="slide fade">
+            <img src="project3.jpg" alt="Project 3">
+            <div class="caption">Project 3 Description</div>
+        </div>
+        
+        <!-- Navigation Dots -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        </div>      
+    </div>
+        
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="images/photo.jpg" alt="Wojciech Szumny" width="200">
+            <p>Hi, I'm Wojciech Szumny! I'm passionate about web development and always eager to learn new technologies. Welcome to my personal homepage!</p>
+            <p>Want to learn more about my experience? Check out my resume below:</p>
+            <a href="your-resume.pdf" target="_blank">View My Resume</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Building structured and semantic web pages.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">90%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Styling and designing responsive websites.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;">80%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Adding interactivity and dynamic features to web applications.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;">70%</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Wojciech Szumny. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+
+<script src="https://kit.fontawesome.com/4e1fde00a0.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+
+
+</html>
